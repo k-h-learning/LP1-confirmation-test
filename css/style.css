@@ -288,18 +288,22 @@ body {
 
 .fea-wrap__con {
   background-color: rgb(255 169 3 / 15%);
-  padding: 3% 15%;
+  padding: 4% 15%;
 }
 
 .fea-wrap__con__block {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3% 0;
+  margin-bottom: 3%;
 }
 
 .fea-wrap__con__block:nth-of-type(2n) {
   flex-direction: row-reverse;
+}
+
+.fea-wrap__con__block:nth-of-type(4) {
+  margin-bottom: 0%;
 }
 
 .fea-wrap__con__block__txt {
